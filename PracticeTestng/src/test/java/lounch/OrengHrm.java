@@ -29,6 +29,9 @@ public class OrengHrm {
 		driver.findElement(By.name("username")).sendKeys("Admin");
 		driver.findElement(By.name("password")).sendKeys("admin123",Keys.ENTER);
 		Thread.sleep(3000);
+		System.out.println("Practising");
 		driver.quit();
 	}
+	
+	
 }
